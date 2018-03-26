@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: 4 hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -16,26 +16,32 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+### Vulnerability #1: SQLi in public "Find a Salesperson" view
 
-Vulnerability #2: __________________
+Note, recording was made in a private view, but exact same exploit is available via the public "Find a Salesperson" view.
 
+![](./sqli.gif)
+
+### Vulnerability #2: Session Hijacking
+
+![](./session-hijacking.gif)
 
 ## Green
 
-Vulnerability #1: __________________
+### Vulnerability #1: User Enumeration (Valid user is bold, invalid user is not)
 
-Vulnerability #2: __________________
+![](./enum.gif)
 
+### Vulnerability #2: XSS via Contact From
+
+![](./xss.gif)
 
 ## Red
 
-Vulnerability #1: __________________
+### Vulnerability #1: IDOR in Public "Find a Salesperson" view
+![](./idor.gif)
 
-Vulnerability #2: __________________
+### Vulnerability #2: CSRT Forgery - Not being checked in private "Users -> Edit" view.
+![](./CSRF.gif)
 
-
-## Notes
-
-Describe any challenges encountered while doing the work
 
